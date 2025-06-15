@@ -19,19 +19,8 @@ Linux / Ubuntu
 All the code and files for this project are stored in a GitHub repository.
 GitHub link: https://github.com/jairaghani12/jai-intern-submission
 
-5. Project Structure
 
-├── app.py
-├── posts.py
-├── requirements.txt
-├── Dockerfile
-├── templates/
-│   ├── index.html
-│   └── post.html
-├── static/
-│   └── style.css
-
-6. Step-by-Step Instructions
+5. Step-by-Step Instructions
 Step 1: Dockerizing the Application
  - Create requirements.txt
    flask==2.2.5
@@ -68,12 +57,13 @@ Step 5: Build and Run on EC2:
    sudo docker run -d -p 5000:5000 mini-blog
 
 Access at: http://13.60.45.249:5000
-7. Useful Docker Commands Used
+
+6. Useful Docker Commands Used
 sudo docker ps  # list containers
 sudo docker build -t myapp .  # build image
 sudo docker run -d -p 5000:5000 myapp  # run container
 
-8. Conclusion
+7. Conclusion
 This assignment helped in understanding the full cycle of deploying a web application to the cloud. Starting with a basic blog app built using Flask, we learned how to containerize it using Docker and then host it on an AWS EC2 instance. The process covered important steps such as writing clean code, building a Docker image, setting up a virtual server, and running the app live so it can be accessed from anywhere. It also introduced useful tools and services like GitHub, Docker, and AWS.
 Overall, this was a valuable learning experience that showed how different parts of a project — coding, containerization, and cloud hosting — come together to make an application available online.
 
